@@ -18,7 +18,7 @@
     "--security-opt",
     "seccomp=unconfined",
     "--network=api-1-network",
-    "--name=api-1"
+    "--name=api-1-golang"
   ],
   // Configure tool-specific properties.
   "customizations": {
