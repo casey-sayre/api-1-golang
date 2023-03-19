@@ -7,7 +7,7 @@ db:
   dbName: Music
   port: "5432"
 sns:
-  serverEndpoint: "http://golang_api_localstack:4566"
+  serverEndpoint: "http://golang_api_1_localstack:4566"
   albumUpdateTopicArn: "arn:aws:sns:us-east-1:000000000000:album-update-events"
   region: "us-east-1"
   credentials:
@@ -15,7 +15,7 @@ sns:
     secret: SECRET_KEY
     token: TOKEN
 sqs:
-  serverEndpoint: "http://golang_api_localstack:4566"
+  serverEndpoint: "http://golang_api_1_localstack:4566"
   region: "us-east-1"
   credentials:
     id: AKID
